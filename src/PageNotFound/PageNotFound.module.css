@@ -1,0 +1,12 @@
+.pageNotFound {
+	width: 100%;
+	margin: 15px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.button {
+	margin-top: 15px;
+}

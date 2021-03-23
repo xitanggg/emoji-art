@@ -1,0 +1,10 @@
+.App {
+	text-align: center;
+}
+
+:root {
+	--tipstory-blue: rgb(5, 151, 242);
+	--theme-color-grey: rgb(130, 130, 130);
+	--theme-hover-background-color: rgb(245, 245, 245);
+	--theme-header-border-bottom: rgb(235, 235, 235);
+}

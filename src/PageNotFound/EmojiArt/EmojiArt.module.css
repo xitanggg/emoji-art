@@ -1,0 +1,41 @@
+.word {
+	display: flex;
+	margin: 15px 0px;
+}
+
+/* Emoji Letter */
+.emojiLetter {
+	margin-right: 10px;
+}
+
+.row {
+	display: flex;
+	height: 20px;
+}
+
+.emoji,
+.empty {
+	width: 20px;
+	height: 20px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.emoji {
+	background: var(--theme-hover-background-color);
+}
+
+@media (max-width: 500px) {
+	.row {
+		height: 16px;
+	}
+	.emojiLetter {
+		margin-right: 6px;
+	}
+	.emoji,
+	.empty {
+		width: 16px;
+		height: 16px;
+		font-size: 12px;
+	}
+}

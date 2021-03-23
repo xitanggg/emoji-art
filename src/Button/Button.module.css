@@ -1,0 +1,51 @@
+.preserveOutline:focus {
+	outline: none;
+}
+
+.preserveOutline:focus-visible {
+	outline: revert;
+}
+
+.btn {
+	composes: preserveOutline;
+	font-size: 15px;
+	line-height: normal;
+	cursor: pointer;
+	position: relative;
+	color: var(--theme-color-grey);
+	background: none;
+	border: none;
+	padding: 3px 9px;
+	border-radius: 5px;
+	user-select: none;
+}
+
+.btn:active {
+	outline: none;
+	opacity: 0.9;
+}
+
+.btnNormal {
+	composes: btn;
+	color: var(--theme-color-grey);
+	border: 1px solid rgb(180, 180, 180);
+	background: var(--theme-hover-background-color);
+}
+
+.btnNormal:hover,
+.btnNormal:focus {
+	background-color: var(--theme-header-border-bottom);
+}
+
+.btnPrimary {
+	composes: btn;
+	color: white;
+	border: 1px solid var(--tipstory-blue);
+	background-color: rgb(5, 151, 242, 0.9);
+	font-weight: 500;
+}
+
+.btnPrimary:hover,
+.btnPrimary:focus {
+	background-color: var(--tipstory-blue);
+}
